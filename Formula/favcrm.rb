@@ -1,25 +1,25 @@
 class Favcrm < Formula
   desc "FavCRM CLI — talk to FavCRM from your terminal via the MCP API"
   homepage "https://favcrm.io"
-  version "0.1.4"
+  version "0.1.5"
   license "MIT"
 
   on_macos do
     # Apple Silicon only — Intel Macs are not supported.
     on_arm do
-      url "https://github.com/favcrm/cli/releases/download/v0.1.4/favcrm-v0.1.4-aarch64-apple-darwin.tar.gz"
-      sha256 "77236f8d7cc5a69f19ea3ab02e7102b3a11c299b7728e1cee5f2e330488689a5"
+      url "https://github.com/favcrm/cli/releases/download/v0.1.5/favcrm-v0.1.5-aarch64-apple-darwin.tar.gz"
+      sha256 "a05153a1890238e2bc69acdc3e018ca4aa0169cd5fec219b5ba9d359991345ff"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/favcrm/cli/releases/download/v0.1.4/favcrm-v0.1.4-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "babc9a0c1dadbe4bdf86f0e20baf63f7c4de87f5b836b76cf5a1e527c5fbee6a"
+      url "https://github.com/favcrm/cli/releases/download/v0.1.5/favcrm-v0.1.5-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "8ecf8cc72aceaa2af114109857184963cf25b4cfc5d0d3d3195c1056688156a7"
     end
     on_intel do
-      url "https://github.com/favcrm/cli/releases/download/v0.1.4/favcrm-v0.1.4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a4da6f1830f732eda9eef6a846a35429cac8167887c86fc21dce664253f18914"
+      url "https://github.com/favcrm/cli/releases/download/v0.1.5/favcrm-v0.1.5-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4471e1edf2fc1b1e13abdb85ce1e43a47a07de259b6ff8ec8f9556e01686527a"
     end
   end
 
